@@ -1201,7 +1201,7 @@ contract Ninja is ERC20, Ownable {
 
     constructor() ERC20("LEGT NINJA", "NINJA") {
         uniswapV2Router = IUniswapV2Router02(
-            0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
+            0xC532a74256D3Db42D0Bf7a0400fEFDbad7694008
         );
         _approve(address(this), address(uniswapV2Router), type(uint256).max);
 
