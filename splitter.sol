@@ -116,7 +116,7 @@ contract JohnnyReb is Ownable {
     address payable public wallet1 =
         payable(0x90923AD852f67682D9CcD437196a619F7BdF6Ae7);
     address payable public wallet2 =
-        payable(0xF6b827674d5cc1b85381af4176Fe768Df3fCFA0A);
+        payable(0xD719085662A26971c43881C008639bb8AC1Babba);
 
     constructor() {}
 
