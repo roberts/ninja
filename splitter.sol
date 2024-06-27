@@ -136,7 +136,7 @@ contract JohnnyReb is Ownable {
     receive() external payable {
         require(msg.value > 0, "No ether sent");
 
-        uint wallet1Share = (msg.value * 16) / 100;
+        uint wallet1Share = (msg.value * 50) / 100;
         uint wallet2Share = msg.value - wallet1Share;
 
         wallet1.transfer(wallet1Share);
